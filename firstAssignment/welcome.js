@@ -1,11 +1,12 @@
 function pattern(str){
     str = str.split('')
+    let half = Math.floor(str.length/2);
     let res = ""
-        for(let j=Math.floor(str.length/2); j<str.length; j++){
+        for(let j=half; j<str.length; j++){
             res = res + str[j]
             console.log(res);
         }
-        for(let j=0; j<Math.floor(str.length/2); j++){
+        for(let j=0; j<half; j++){
             res = res + str[j]
             console.log(res);
         }

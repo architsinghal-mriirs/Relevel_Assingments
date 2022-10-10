@@ -6,6 +6,12 @@ function upperCase(str){
     return "Not a string"
 }
 
-let a = "abc"
+let string1 = "My name is Archit Singhal"
+let string2 = 50
+let string3 = null
+let string4 = {} 
 
-console.log(upperCase("My name is Archit Singhal"));
+console.log(upperCase(string1))
+console.log(upperCase(string2))
+console.log(upperCase(string3))
+console.log(upperCase(string4))
