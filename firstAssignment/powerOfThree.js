@@ -1,7 +1,5 @@
 // question is not properly worded and there are no examples so i am making two functions.
 
-
-
 //this function returns 3 ^ n
 function powerOfThree(n){
     let ans = 1;
